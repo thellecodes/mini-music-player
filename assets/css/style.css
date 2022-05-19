@@ -1,0 +1,150 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body,
+html {
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto", sans-serif;
+    background-color: #2d2464;
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+    color: #fafafa;
+    user-select: none;
+}
+
+img {
+    height: 100%;
+    width: 100%;
+}
+
+.audio-container {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.audio-img {
+    width: 200px;
+    height: 200px;
+}
+
+h1 {
+    text-transform: uppercase;
+    font-size: 1.2rem;
+}
+
+.audio-img-wrapper {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.audio-img {
+    border: 6px solid #9664ff;
+    padding: 10px;
+    border-radius: 100%;
+    text-align: center;
+}
+
+.audio-img img {
+    border-radius: 100%;
+}
+
+h2 {
+    margin-top: 1rem;
+    font-size: 1.5rem;
+    text-transform: capitalize;
+}
+
+h6 {
+    font-size: 0.9rem;
+    margin-top: 0.5rem;
+    font-weight: 400;
+    color: #bcbcbc;
+}
+
+.audio-progress {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    width: 60%;
+}
+
+.progress {
+    grid-column: 1 / -1;
+    margin-bottom: 0.8rem;
+    text-align: center;
+    background-color: #3d3a4b;
+    height: 0.4rem;
+    border-radius: 0.8rem;
+    cursor: pointer;
+    position: relative;
+}
+
+.progress-head {
+    position: absolute;
+    background-color: #fafafa;
+    height: 1.2rem;
+    width: 1.2rem;
+    top: 0;
+    left: 0;
+    transform: translate(-50%, -32%);
+    border-radius: 100%;
+    z-index: 2;
+    box-shadow: 0 0 0 3px #aaabf8;
+}
+
+.progress-bar {
+    background-color: #fff;
+    height: 100%;
+    position: relative;
+    width: 0%;
+    border-radius: 0.8rem;
+}
+
+.current-time {
+    text-align: left;
+    margin-left: 0.5rem;
+}
+
+.duration {
+    text-align: end;
+    margin-right: 0.5rem;
+}
+
+.audio-btns {
+    width: 300px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.btn {
+    cursor: pointer;
+    border: unset;
+    box-shadow: unset;
+    background-color: unset;
+    font-size: 1.4rem;
+    color: #fafafa;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.play {
+    background: linear-gradient(to right, #425ef0, #7854fb);
+    text-align: center;
+    border-radius: 100%;
+    padding: 1rem 1.2rem;
+    /* padding-left: 1.5rem; */
+}
