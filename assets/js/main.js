@@ -58,30 +58,6 @@ this.tracks = [
         cover: "https://raw.githubusercontent.com/muhammederdem/mini-player/master/img/5.jpg",
         source: "https://raw.githubusercontent.com/muhammederdem/mini-player/master/mp3/5.mp3",
     },
-    {
-        name: "Genius ft. Sia, Diplo, Labrinth",
-        artist: "LSD",
-        cover: "https://raw.githubusercontent.com/muhammederdem/mini-player/master/img/6.jpg",
-        source: "https://raw.githubusercontent.com/muhammederdem/mini-player/master/mp3/6.mp3",
-    },
-    {
-        name: "The Comeback Kid",
-        artist: "Lindi Ortega",
-        cover: "https://raw.githubusercontent.com/muhammederdem/mini-player/master/img/7.jpg",
-        source: "https://raw.githubusercontent.com/muhammederdem/mini-player/master/mp3/7.mp3",
-    },
-    {
-        name: "Overdose",
-        artist: "Grandson",
-        cover: "https://raw.githubusercontent.com/muhammederdem/mini-player/master/img/8.jpg",
-        source: "https://raw.githubusercontent.com/muhammederdem/mini-player/master/mp3/8.mp3",
-    },
-    {
-        name: "Rag'n'Bone Man",
-        artist: "Human",
-        cover: "https://raw.githubusercontent.com/muhammederdem/mini-player/master/img/9.jpg",
-        source: "https://raw.githubusercontent.com/muhammederdem/mini-player/master/mp3/9.mp3",
-    }
 ];
 
 // when the dom is loaded
