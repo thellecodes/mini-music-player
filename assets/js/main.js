@@ -14,8 +14,6 @@ const playBtn = document.querySelector(".play"),
     title = document.querySelector(".audio-title"),
     singer = document.querySelector(".audio-singer");
 
-
-
 this.tracks = [
     {
         name: "Tech House vibes",
