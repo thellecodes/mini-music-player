@@ -179,10 +179,6 @@ audio.ontimeupdate = function () {
     }
 };
 
-audio.onended = function () {
-    isTimerPlaying = true;
-};
-
 
 // Animations
 TweenMax.from('.img', 4, { rotation: "+=360", transformOrigin: "50% 50%", ease: Linear.easeNone, repeat: -1 });
