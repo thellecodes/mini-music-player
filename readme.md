@@ -7,7 +7,7 @@ This project was created by [Samuel Anthony](https://twitter.com/sam1an).
 
 # Youtube Video - Full project video
 
-[![Fullscreen Music Player](https://play-lh.googleusercontent.com/lMoItBgdPPVDJsNOVtP26EKHePkwBg-PkuY9NOrc-fumRtTFP4XhpUNk_22syN4Datc=s180-rw)](https://www.youtube.com/watch?v=Dy4qkxdN7jY "Fullscreen Music Player Using HTML, CSS & JavaScript")
+[![Fullscreen Music Player](https://play-lh.googleusercontent.com/lMoItBgdPPVDJsNOVtP26EKHePkwBg-PkuY9NOrc-fumRtTFP4XhpUNk_22syN4Datc=s180-rw)](https://youtu.be/bxbidND_jrQ "Fullscreen Music Player Using HTML, CSS & JavaScript")
 
 ## To install
 
